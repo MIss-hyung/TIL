@@ -1,0 +1,16 @@
+JSP directives는 방향이나 명령을 제공한다.
+
+1. page directive
+2. include directive
+3. taglib directive
+4. syntax: <%@ directive attribute="value" %>
+
+2. include directive
+jsp 파일, html 파일 또는 텍스트 파일 일 수 있는 모든 자원의 내용을 포함하는 데 사용
+include 지시문은 페이지 변환시 포함 된 자원의 원래 컨텐츠를 포함
+(jsp 페이지는 한 번만 변환되므로 정적 자원을 포함하는 것이 좋음)
+장점: 코드 재사용성
+syntax: <%@ include file="resourceName" %>
+ex) header.html file include 해야 할 때 : <%@ include file="header.html" %>
+
+include 지시문에는 원본 내용이 포함되므로 실제 페이지 크기는 런타임에 커짐
