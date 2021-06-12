@@ -1,0 +1,15 @@
+Git 영역
+
+(1) Working Directory (Local)
+
+    : 개인 코드 작성
+
+(2) Staging 영역
+
+    :​ git add 를 통해서 수정된 코드를 올리는 영역
+
+(3) Repository
+
+    : ​ git commit 을 통해서 최종 수정본을 제출
+
+

@@ -1,3 +1,5 @@
+VO란? 데이터를 담아서 전달하는 것.
+
 * RequestParam을 VO로 바로 받는 방법
 
 id = testID

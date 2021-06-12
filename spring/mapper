@@ -1,0 +1,7 @@
+Mapper 인터페이스란?
+    Mybatis 매핑 XML에 기재된 SQL을 호출하기 위한 인터페이스이다.
+    Mybatis3.0부터 생겼다.
+
+Mapper인터페이스를 사용하지 않을 경우
+1. SqlSession을 등록해줘야 한다.
+2. DAO인터페이스와 인터페이스를 구현한 DAO클래스를 생성해줘야한다.
