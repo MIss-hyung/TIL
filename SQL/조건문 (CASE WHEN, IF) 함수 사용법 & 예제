@@ -1,0 +1,19 @@
+CASE WHEN
+    - 가장 많이 쓰이는 조건문, 조건에 따라 값을 지정해 주는 역할을 함.
+
+-- CASE 사용법 --
+CASE WHEN 조건절 THEN 참일때 값 ELSE 거짓일떄 값 END 컬럼명
+
+-- 예제 테이블(MY_TABLE)에서 성별(GENER)dk 001이면 여, 그게 아니면 남자로 검색 --
+SELECT DISTINCT
+GENDER,
+CASE WHEN GENDER = '001' THEN '여' ELSE '남' END AS 성별
+FROM MY_TABLE
+
+-- 다중 CASE WHEN --
+ ex) 테이블(MY_TABLE)에서 성적(SCORE)별 학점을 계산
+ SELECT *,
+    (CASE WHEN SCORE>='90' THEN 'A학점'
+        )
+
+
