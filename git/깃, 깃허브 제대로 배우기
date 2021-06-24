@@ -1,0 +1,49 @@
+터미널 추천
+mac = iTerm2 , window = cmder (기본적으로 git 깔림)
+
+git config --global -e
+code .
+git config --global core.editor "code" // 기본으로 설정된 에디터로 이동한다. ex)
+git config --global -e
+git config --global core.editor "code --wait"
+git config --global -e
+git config --global user.name "cyh" // 사용자 설정
+git config --global user.email "cyh1779@gmal.com"
+config user.name
+config user.email
+config --global core.autocrlf input // mac
+config --global core.autocrlf true //window
+//운영체제마다 줄바꿈 문자열이 달라짐.
+
+cd project
+mkdir git
+cd git
+ls -aㅣ
+
+git init
+ls -al
+open .git
+삭제하고 싶을때 rm -rf .git
+git status
+git config --global alias.st status
+----------------
+workind directory / staging area / .git directory
+checkout 하고 commit하고 하는것들은 다 local 즉 내 컴퓨터에 저장되어 있다.
+그래서 github같은것에다가 올려둬야 한다. 그럼 push나 pull 가능
+
+git add a.txt 해서 깃 staging area에 올린다
+깃에 올리고 싶지 않은 파일들은 이런 파일을 만들어서 거기다가 적어둔다.
+echo *.log > .gitignore
+
+fit diff 해서 두개를 비교해서 볼 수 있다.
+
+git diff --staged
+git config --global -e //이렇게 해서 비교해라
+
+git commit -, "second commit"
+git history //히스토리
+알아서 의미있는 단위로 만들어라~~
+
+
+
+

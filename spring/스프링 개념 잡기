@@ -1,0 +1,18 @@
+1. 스프링은 프레임워크다
+
+2. 스프링은 오픈소스이다.
+
+3. 스프링은 IoC 컨테이너를 가진다.
+IoC(Inversion of Controller), 주도권이 스프링에 있다.
+
+4. 스프링은 DI를 지원한다.
+DI(Dependency Injection) 스프링과 관리하는 오브젝트를 내가 원하는 모든 클래스의 메소드에서
+가져와 사용할 수 있다.
+
+5. 스프링은 엄청나게 많은 필터를 가지고 있다.
+
+
+
+* 실제 로직 처리
+controller -> service -> DAO -> DB -> DAO -> Service -> controller
+
