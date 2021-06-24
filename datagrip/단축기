@@ -1,0 +1,9 @@
+*맥 기준
+ 
+대문자 변환 : cmd+shift+u
+
+Indent(들여쓰기) : 블록지정 상태에서 tab
+
+unindent(내어쓰기) : 블록지정 상태에서 shift+tab
+
+쿼리 줄맞춤 : cmd+alt+l
