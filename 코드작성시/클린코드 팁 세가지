@@ -1,0 +1,30 @@
+1. DRY ( Don't Repeat Yourself)
+    로직, 지식, 의도, 비즈니스로직 이 모든 것들이 중복되지 않도록 하는 것
+
+2. KISS ( Keep It Simple, Stupid)   
+    code, Function, Class, View, Service, System
+
+ex) //💩
+    Function getFirst(array, isEven) {
+        return array.find(x => (isEven ? x % 2 === 0 : x % 2 !== 0));
+    }
+
+    // 💩
+    Function getFirst(array, isEven) {
+        if (isEven) {
+            return array.find(x => x % 2 === 0);
+        } else {
+            return array.find(x => x % 2 !== 0);
+        }
+    }
+
+    //✨
+    Function getFirstOdd(array) {
+        return array.find(x => x % 2 !== 0);
+    }
+    Function getFirstEven(array) {
+        return array.find(x => x % 2 === 0);
+    }
+
+    3. YAGNI (You Ain't Gonna Need It)
+    

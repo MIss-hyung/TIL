@@ -1,0 +1,43 @@
+AJAx = SPA(Single page application)
+
+CSR(Client Side Rendering)
+    Angular, vew, react
+문제) 사용자가 첫화면을 보기까지 오래걸린다.
+문제) Low SEO(Search Engine Optimization)
+
+SSR (Server Side Rendering)
+웹사이트에 접속하면 서버에서 필요한데이터를 모두 가져와서 HTML파일을 만들게 되고,
+이렇게 잘 만들어진 HTML파일을 동적으로 제어할 수 있는 소스코드와 함께 클라이언트에게 보내주게 된다.
+그럼 클라이언트상에서는 잘 만들어진 HTML문서를 받아와서 바로 사용자에게 보여줄 수 있게 된다.
+
+장점)
+1. Initial page load is faster
+2. Great SEO(Search Engine Optimization)
+
+문제)
+1. Blinking issue, Non-rich site interactions
+사용자가 클릭하게되면 전체적인 웹사이트를 다시 서버에서 받아 오는것과 동일하기 때문에
+2. Server side overhead
+서버에 과부하가 걸리기 쉽다.
+3. Need to wait before interacting
+동적으로 데이터를 처리하는 자바스크립트를 아직 다운로드 받지 못해서 클릭했는데 반응이 없을수도 있다.
+    TTV(Time To View)
+    TTI(Time To Interact)
+
+    * CSR(Client Side Rendering)을 시간이 가는대로 분석하게 되면
+    1. 사이트 접속
+    2. 서버에게서 인덱스 파일 받기
+    3. 이 HTML파일에 링크되어져 있는 이 웹에서 필요한 모든 로직이 담겨있는 js파일을 요청
+    즉) TTV 사용자가 웹사이트를 볼 수 있음 과 동시에 TTI 클릭을 하거나 인터랙션 가능
+
+    * SSR
+    1. 사이트 접속
+    2. 서버에서 이미 잘 만들어진 인덱스 파일을 받아 오게 됨.
+    3. 사용자가 볼 수 있다. 하지만 아직 클릭 불가능
+    최종적으로 js파일을 받아와야지만 가능하다.
+
+SSG(Static Side Generation)
+    -> react : CSR에 특화된 라이브러리지만 
+    --> Gatsby라는 라이브러리와 함께 사용한다면 리액트로만든 웹 어플리케이션을 정적으로 웹페이지를 생성을 미리 해두어서
+    서버에 배포해 놓을 수 있다. 동적인 것도 충분히 가능
+    --> Next.js 

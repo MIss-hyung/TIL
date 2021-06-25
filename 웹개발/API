@@ -1,0 +1,17 @@
+API?
+    Application Programming Interface
+
+서버에 있는 데이터를 읽고 쓰기 위해서는 Web ApIs를 이용해서 처리 할 수 있습니다.
+HTTP : 네트워크에서 기기들간에 의사소통 해나가는 규격 사항을 HTTP라고 부름.
+이런 Web API를 어떻게 디자인해서 만들건지 정의하는 것이 있는데
+- 예전 SOAP (Simple Object Access Protocol)
+    -> 모든 네트워크 요청과 반응을 HTML처럼 생긴 XML이라는 데이터 포맷에 저장해서 주고 받았다.
+- 요즘 REST가 보편적
+    -> Post(create), Get(Read), Put(update), Delete(delete)
+    즉) 서버에서 제공하는 Web API를 통해서 서버에 있는 데이터를 읽어오거나 업데이트할 수 있다.
+
+이런 web api 뿐만 아니라 라이브러리나 프레임워크에서 우리가 이용 할 수 있는 클래스나 함수들을 API라고 부른다.
+---------------------
+Giphy 개발툴에서 제공하는 SDK나 Open API를 이용하면 재밋는 app 만들기 가능
+Spotify
+깃허브에 정리된 public-api 
