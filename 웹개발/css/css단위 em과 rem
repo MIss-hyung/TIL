@@ -1,0 +1,6 @@
+부모요소의 사이즈에 따라 반응해야하면(relative to parent element) : % em
+브라우저 사이즈(relative to root element) : v* rem
+
+요소의너비와 높이에 따라 : % v*
+font 사이즈에 따라서 사이즈가 변경 : em, rem 사용
+
