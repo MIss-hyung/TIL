@@ -1,0 +1,17 @@
+1. 집합임시저장
+        List 
+            - 순서, 중복허용(배열 확장)
+            - ArrayList(Vector)
+        Set 
+            - 순서 없, 중복 없
+            - 향상된 for / Iterator
+            - HashSet
+        Map
+            - 키, 값 구조
+            - 키만 가져올지 / 값만 가져올지
+            - HashMap, Properties
+
+    엑셀 형식 처리하기 (행과 열이 있는 2차원 배열)
+        2차원 : ArrayList 사용
+        1차원 배열 + 객체 / 1차원 ArrayList + 객체
+        1차원 ArrayList + HashMap
