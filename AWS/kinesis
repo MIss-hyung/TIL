@@ -1,0 +1,4 @@
+* AWS Kinesis Data Streams 란?
+    대량에 '스트림 데이터'를 실시간으로 "수집 및 처리"하는 서비스
+    'Kinesis Client Library"를 기반으로 데이터를 처리하는 "Kinesis Data Streams APplication"을 만들 수 있다.
+    
