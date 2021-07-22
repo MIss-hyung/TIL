@@ -1,0 +1,8 @@
+<body>
+    <input type="button" value="hi" onclick="aler('hi')">
+    //온클릭 속성의 속성값은 기억하고 있다가이 테그를 사용자가 클릭했을때 동작할 것이다.
+    //onclick속성의 결과는 js가 나와야한다.
+    <input type = "text" onchange="alert('changed')">
+<body>
+
+//javascript keydown event

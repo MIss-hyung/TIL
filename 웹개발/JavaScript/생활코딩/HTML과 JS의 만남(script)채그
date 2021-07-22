@@ -1,0 +1,9 @@
+어떻게하면 html에다가 js를 낑겨넣을 것인가.
+<body>
+    <script>
+    document.write("hello world");
+    document.write(1=1); //2
+    <script>
+    <h1> html </html>
+    여기는 정적이다. 1+1 // 1+1
+</body>
