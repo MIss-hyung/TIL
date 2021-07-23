@@ -1,0 +1,19 @@
+SQL = Structured Query Langauage
+데이터베이스와 대화하기 위해 특별히 디자인된 언어
+
+1. Relational (SQL)
+    == mysql, postgresql, sqlite
+
+
+2. NoN Relational (Non-SQL)
+    == MongoDB, DynamoDB, couchDB
+
+SQL은 엑셀처럼 생겼다. row & column 
+
+ORM = 프로그래밍 언어를 sql코드로 바꿔주는것
+    python = django ORM
+    라라벨 = eloquent ORM
+    nodeJs = Sequelize or type ORM
+    
+
+
